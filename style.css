@@ -1,0 +1,72 @@
+body{
+	/*background: #003A4A;*/
+	background-position: center center;
+    background: radial-gradient(ellipse,#008D8E , #003A4A);
+}
+
+#contenedor{ margin: 0 auto; width: 88%; }
+
+h1, h3, p{
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	color: #FF5305;
+	text-shadow: 0.5px 0 0 white, -0.5px 0 0 white, 0 0.5px 0 white, 0 -0.5px 0 white;
+}
+
+p{
+	font-size: 55px;
+	border: 2px dotted #FF5305;
+	width: 50%;
+	border-radius: 10px;
+	background: #008D8E;
+	margin-left: 25%;
+}
+
+img {
+	width: 300px;
+	cursor: hand;
+
+}
+
+#juego div{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#juego{
+	margin: 0 auto;
+	background-color: #008D8E;
+	width: 80%;
+	border-radius: 50px;
+	border: 3px solid #FF5305;
+}
+
+
+#efecto {
+    position: absolute;
+    background: rgba(0,141,142,0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    transition: all 0.1s;
+}
+
+#efecto h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #fff;
+    margin: 2em 0 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#efecto h3 {
+    text-align: center;
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+}
